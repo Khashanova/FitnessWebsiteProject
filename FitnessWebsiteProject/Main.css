@@ -1,0 +1,381 @@
+﻿* {
+    margin: 0 0px 0 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('Photos/OFit.jpg');
+}
+
+
+.header {
+    
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+
+.inner_header {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgb(40,43,102);
+    background: radial-gradient(circle, rgba(40,43,102,1) 67%, rgba(82,159,235,1) 100%);
+}
+
+
+.logo_container {
+    width: 14%;
+    height: 94%;
+    display: table;
+    float: left;
+}
+
+
+    .logo_container h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        color: white;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 20%;
+    }
+
+        .logo_container h1 span {
+            font-weight: 80%;
+            font-family: 'chakra petch';
+        }
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+
+    .nav b {
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        font-size: 130%;
+    }
+
+
+        .nav b li {
+            display: table-cell;
+            vertical-align: middle;
+            color: white;
+            font-size: 23px;
+            padding-left: 20px;
+        }
+
+.maintitle h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    padding-top: 15px;
+    font-size: 40px;
+    padding-left: 200px;
+}
+
+/*Home Css*/
+.Whoarewe, .Programs, .Target {
+    font-size:30px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+    .Whoarewe h1, .Programs h1, .Target h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        color: #333;
+        text-align: center;
+    }
+
+    .Whoarewe p, .Programs p, .Target p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0;
+        color: black;
+        text-align: justify;
+    }
+
+.Whoarewe {
+    text-align: center;
+}
+
+.Programs, .Target {
+    text-align: left;
+}
+/* LogIn Css*/
+.Login_Form{
+    padding:20px;
+}
+.Login_Form form {
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 20%;
+}
+
+
+    .Login_Form form input[type="text"],
+    form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .Login_Form form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .Login_Form form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+/* Register Css*/
+.ResiterForm {
+    padding: 20px;
+}
+
+.ResiterForm form {
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        padding: 20%;
+}
+
+
+.ResiterForm form input[type="text"],form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+    .ResiterForm form button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .ResiterForm form button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+/* Math Css*/
+.Math_Form form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+    .Math_Form form label {
+        font-weight: bold;
+        margin-bottom: 2px;
+        font-size: 3 0px;
+    }
+
+    .Math_Form form input[type="text"], form select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .Math_Form form button {
+        width: 100%;
+        background: rgb(130,237,20);
+        background: linear-gradient(90deg, rgba(130,237,20,1) 3%, rgba(223,44,27,1) 96%);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .Math_Form form button:hover {
+            background: rgb(223,44,27);
+            background: linear-gradient(90deg, rgba(223,44,27,1) 3%, rgba(130,237,20,1) 96%);
+        }
+
+
+/* Exercise Css*/
+.exercise-style h1 {
+    text-align: center;
+}
+.muscle-group-list {
+    display: flex;
+    justify-content: center;
+}
+
+.muscle-group-button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+}
+
+.exercise-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exercise {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+    .exercise img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+.exercise-name {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.exercise-description {
+    padding:  10px;
+      
+}
+
+
+/* Macros Css*/
+.Macros-Table table {
+    color: white;
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.Macros-Table tr, .Macros-Table td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+.Macros-Table tr:first-child {
+    color: greenyellow;
+    background-color: darkcyan;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+/*Store Css*/
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+    .product-card img {
+        width: 100%;
+    }
+
+    .product-card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .product-card p {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+    .product-card button {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+        .product-card button:hover {
+            background-color: #222;
+        }
+
+.cart table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.cart td,.cart tr {
+        border: 3px solid rgb(0, 0, 0);
+        padding: 8px;
+        text-align: left;
+}
+
+.cart tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#total {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#checkout {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(247, 247,  247);
+}
+
+/* .parent {
+    display: flex;
+    justify conten:center;
+    allign itms:center;
+    }
+    display:grid;
+    place items:center;
+*/

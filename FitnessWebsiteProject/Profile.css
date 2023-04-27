@@ -1,0 +1,112 @@
+﻿* {
+    margin: 0 0px 0 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('Photos/OFit.jpg');
+}
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+
+.inner_header {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgb(40,43,102);
+    background: radial-gradient(circle, rgba(40,43,102,1) 67%, rgba(82,159,235,1) 100%);
+}
+
+
+.logo_container {
+    width: 14%;
+    height: 94%;
+    display: table;
+    float: left;
+}
+
+
+    .logo_container h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        color: white;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 20%;
+    }
+
+        .logo_container h1 span {
+            font-weight: 80%;
+            font-family: 'chakra petch';
+        }
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+
+    .nav b {
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        font-size: 130%;
+    }
+
+
+        .nav b li {
+            display: table-cell;
+            vertical-align: middle;
+            color: white;
+            font-size: 23px;
+            padding-left: 20px;
+        }
+
+.maintitle h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    padding-top: 15px;
+    font-size: 40px;
+    padding-left: 200px;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+tr,td{
+    border:5px solid black;
+}
+
+
+
+td {
+    padding: 10px;
+}
+
+
+    td:first-child {
+        font-weight: bold;
+        text-align: right;
+        width: 30%;
+    }
+
+label {
+    color:white;
+    font-size: 14px;
+}
+button{
+    color:coral;
+}
